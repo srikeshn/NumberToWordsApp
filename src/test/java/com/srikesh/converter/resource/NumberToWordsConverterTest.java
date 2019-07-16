@@ -11,6 +11,7 @@ public class NumberToWordsConverterTest {
 	@Test
 	public void ZeroToNinetyNineRangeTest() {
 		assertEquals("0 = zero", new NumberToWordsConverter().convertToWords(0));
+		assertEquals("5 = five", new NumberToWordsConverter().convertToWords(5));
 		assertEquals("12 = twelve", new NumberToWordsConverter().convertToWords(12));
 		assertEquals("27 = twenty seven", new NumberToWordsConverter().convertToWords(27));
 		assertEquals("30 = thirty", new NumberToWordsConverter().convertToWords(30));
